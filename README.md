@@ -31,9 +31,14 @@ npm install
 ```
 
 ## ⚙️ Setup Environment Variables
-Create a .env file in the root of the project and add the following environment variables:
+Rename env.example to .env file in the root of the project and add the following environment variables:
 ```bash
 PORT=3000
 BASE_API_URL=http://localhost:3000
 ACCESS_TOKEN_KEY=your-secret-key
+
+DEV_DB_USERNAME=
+DEV_DB_PASSWORD=
+DEV_DB_NAME=
+DEV_DB_HOST=
 ```
