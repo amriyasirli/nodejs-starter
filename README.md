@@ -28,7 +28,12 @@ Clone the repository and install the required dependencies:
 git clone <repository-url>
 cd <project-directory>
 npm install
+```
 
+## ⚙️ Setup Environment Variables
+Create a .env file in the root of the project and add the following environment variables:
+```bash
 DATABASE_URL=your-database-connection-string
 PORT=3000
 JWT_SECRET=your-secret-key
+```
