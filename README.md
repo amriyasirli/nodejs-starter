@@ -35,5 +35,5 @@ Create a .env file in the root of the project and add the following environment 
 ```bash
 PORT=3000
 BASE_API_URL=http://localhost:3000
-JWT_SECRET=your-secret-key
+ACCESS_TOKEN_KEY=your-secret-key
 ```
