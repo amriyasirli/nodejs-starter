@@ -33,7 +33,7 @@ npm install
 ## ⚙️ Setup Environment Variables
 Create a .env file in the root of the project and add the following environment variables:
 ```bash
-DATABASE_URL=your-database-connection-string
 PORT=3000
+BASE_API_URL=http://localhost:3000
 JWT_SECRET=your-secret-key
 ```
