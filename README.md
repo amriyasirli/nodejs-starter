@@ -28,3 +28,7 @@ Clone the repository and install the required dependencies:
 git clone <repository-url>
 cd <project-directory>
 npm install
+
+DATABASE_URL=your-database-connection-string
+PORT=3000
+JWT_SECRET=your-secret-key
